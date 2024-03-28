@@ -12,14 +12,14 @@ draft: true
    将两个对同样物体做功的逻辑放到里一函数里时可以直接以另一个函数的结果放入另一个函数，并传入目标值
 
    ```js
-   const compose = (f, g) => (x) => f(g(x));
+   const compose = (f, g) => x => f(g(x))
 
-   const g = (num) => num + 1;
-   const f = (num) => num * 2;
+   const g = num => num + 1
+   const f = num => num * 2
 
-   const h = compose(f, g);
+   const h = compose(f, g)
 
-   h(20); // 42
+   h(20) // 42
    ```
 
    可用范围：js,golang

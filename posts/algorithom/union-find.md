@@ -60,4 +60,3 @@ func (uf *UnionFind) Size(i int) int {
 	return uf.size[uf.Find(i)] // 在该场景中，size查询的是节点i所在的子集里节点的总数
 }
 ```
-
