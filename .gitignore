@@ -10,3 +10,5 @@ node_modules
 
 # 
 *lock.* 
+
+.DS_STORE
