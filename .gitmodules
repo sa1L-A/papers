@@ -1,0 +1,3 @@
+[submodule ".vitepress/theme"]
+	path = .vitepress/theme
+	url = git@github.com:sa1L-A/theme.git
