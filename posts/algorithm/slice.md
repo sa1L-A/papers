@@ -5,13 +5,11 @@ tags: ["algorithom"]
 draft: false
 ---
 
-Algo
-
 ## array/list/slice
 
 宁缺毋滥，只记复杂逻辑
 
-1. ### 两个全排列
+### 1. 两个全排列
 
 ```go
 func SliceUltimate() {
